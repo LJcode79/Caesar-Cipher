@@ -18,7 +18,7 @@ int main() {
   CharStack undo, redo;
 
   char str[256];
-  cout<< "Enter the name of an existing text file(message.txt): ";
+    cout<< "Enter the name of an existing text file(type message.txt to begin): ";
   cin.get(str,256);
 
   ifstream is(str);
